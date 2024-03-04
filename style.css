@@ -1,0 +1,125 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    
+    /* justify-content: space-around; */
+    
+}
+.navbar ul li{
+    padding: 30px;
+    list-style-type: none;
+    display: inline;
+                      
+   
+}
+.navbar ul li a{
+    color:white;
+    font-size: large;
+}
+.navbar ul{
+    /* border: 1px solid white; */
+    /* padding-right: 500px; */
+    margin-left: 50%;
+    margin-top: 20px;
+}
+body{
+    background-color: rgb(7, 19, 50);
+}
+.heading{
+    margin-left: 30%;
+    padding-top: 70px;
+    font-size: larger;
+    color: aliceblue;
+}
+.heading h4{
+    color: turquoise;
+}
+#button{
+    margin-left: 30%;
+    padding: 10px;
+    width: 200px;
+    font: size 19px;
+    background-color: rgb(7, 19, 50);
+    border:1px solid turquoise;
+    color: turquoise;
+}
+.about{
+    font-size: 25px;
+    color:white ;
+    text-align: center;
+    padding-top: 10px;
+}
+#container ul li a{
+    text-decoration:none;
+    /* color:#000; */
+    /* background:#ffc; */
+    display:block;
+    /* background: black; */
+    color: turquoise;
+    border:1px solid turquoise;
+    height:14em;
+    width:18em;
+    padding:1em;
+    transform: rotate(-6deg);
+    transition: transform .15s linear;
+    margin-right: 40px;
+      
+  }
+#container  ul li a:hover,ul li a:focus{
+    box-shadow:10px 10px 7px rgba(0,0,0,.7);
+    transform: scale(1.25);
+    position:relative;
+    z-index:5;
+
+  } 
+#container ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 15px;
+    
+    /* float: right; */
+    
+  }
+#container ul li{
+    margin:1em;
+}
+.contact{
+    font-size: 20px;
+    color: turquoise;
+    margin-left: 10px;
+
+}
+.contact p a{
+    color: turquoise;
+}
+#brand{
+    color: turquoise;
+    margin-top: 30px;
+    font-size: 70px;
+    margin-left: 40px;
+}
+#cont ul li{
+    text-decoration:none;
+    display:block;
+    color: turquoise;
+    border:1px solid turquoise;
+    height:12em;
+    width:18em;
+    padding:1em;
+    margin-right: 40px;
+}
+
+#cont ul{
+    display: flex;
+    padding:5em ;
+    margin-left: 10%;
+    
+}
+.service{
+    color: turquoise;
+    text-align: center;
+    font-size: 50px;
+}
+  
+
